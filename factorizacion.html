@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+    <h1>La chicharronera</h1>
+    <img src="img/1-14-la-ecuacic3b3n-cuadrc3a1tica.webp" width="200px" height="100px" alt="">
+    <table class="table w-50 m-auto">
+        <tr >
+            <td>A:</td>
+            <td>
+                <input type="range" min="-20" max="20" value="0"  id="a" class="form-control">
+            </td>
+            <td>
+                <span id="va">0</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                B:
+            </td>
+            <td>
+                <input type="range" min="-20" max="20" value="0" id="b" class="form-control">
+            </td>
+            <td>
+                <span id="vb">0</span>
+            </td>
+        </tr>
+        <tr >
+            <td>C:</td>
+            <td>
+                <input type="range" min="-20" max="20" value="0"  id="c" class="form-control">
+            </td>
+            <td>
+                <span id="vc">0</span>
+            </td>
+        </tr>
+    </table>
+   
+    <table class="table w-50 m-auto">
+        <tr><h2>Ecuacion:</h2></tr>
+        <tr>
+            <td> <div id="resul3"></div></td>
+        </tr>
+    </table>
+    
+    <table class="table w-50 m-auto">
+        <tr><h2>Resualtado:</h2></tr>
+        <tr>
+            <td>X1:</td>
+            <td> <div id="resul"></div></td>
+        </tr>
+        <tr>
+            <td>X2:</td>
+            <td><div id="resul2"></div></td>
+        </tr>
+    </table>
+
+    
+    <script src="javascript/factorizacion.js"></script>
+</body>
+</html>

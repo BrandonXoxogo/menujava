@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s all ease;
+}
+.a{
+    text-align: center;
+    position: relative;
+    left: 330px;
+    bottom: -90px;
+    text-shadow: 3px 3px 3px pink;
+    
+}
+#b{
+    background: linear-gradient(rgb(94, 108, 110),pink);
+    width: 350px;
+    height: 500px;
+    position: relative;
+    bottom: -100px;
+    left: 500px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 8px 5px gray;
+    
+}
+#n1{
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    text-shadow: 3px 3px 3px pink;
+
+}
+#n2{
+    text-align: center;
+    position: relative;
+    bottom: -70px;
+    text-shadow: 3px 3px 3px white;
+
+}
+#num1{
+    position: relative;
+    bottom: -50px;
+    left: 100px;
+    border-radius: 5px 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    
+}
+#num2{
+    position: relative;
+    bottom: -90px;
+    left: 100px;
+    border-radius: 5px 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+#a1{
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    left: 130px;
+    background: cadetblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+#res{
+    text-align: center;
+    position: relative;
+    bottom: -120px;
+    left: 10px;
+    text-shadow: 3px 3px 3px black;
+}
+input:focus{
+    background-color: lightslategray;
+    color: white;
+}

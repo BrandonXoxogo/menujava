@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+    <h1>Tabla</h1>
+    <table class="table w-50 m-auto">
+        <tr >
+            <td>Filas:</td>
+            <td>
+                <input type="range" min="1" max="50" value="10"  id="fila" class="form-control">
+            </td>
+            <td>
+                <span id="vfil">10</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Columnas:
+            </td>
+            <td>
+                <input type="range" min="1" max="50" value="10" id="columnas" class="form-control">
+            </td>
+            <td>
+                <span id="vcol">10</span>
+            </td>
+        </tr>
+    </table>
+    <div id="tabla"></div>
+
+    <script src="javascript/tabla.js"></script>
+    
+</body>
+</html>
